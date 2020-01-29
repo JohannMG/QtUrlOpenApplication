@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>UrlOpenApp</string>
+	<key>CFBundleGetInfoString</key>
+	<string>UrlOpenApp - test</string>
+	<key>CFBundleExecutable</key>
+	<string>UrlOpenApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.johannmg.UrlOpenApp</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.8.5</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+
+</dict>
+</plist>
