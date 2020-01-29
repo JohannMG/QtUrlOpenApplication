@@ -8,6 +8,12 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
+// const QString &text
+void MainWindow::LogToWindow(QString text)
+{
+    ui->plainTextEdit->appendPlainText(text);
+}
+
 MainWindow::~MainWindow()
 {
     delete ui;

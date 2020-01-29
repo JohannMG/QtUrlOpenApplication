@@ -20,6 +20,8 @@ add_executable(UrlOpenApp
   mainwindow.cpp
   mainwindow.h
   mainwindow.ui
+  url-open-application.h
+  url-open-application.cpp
 )
 
 target_link_libraries(UrlOpenApp

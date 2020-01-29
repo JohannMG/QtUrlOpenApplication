@@ -1,6 +1,7 @@
 #include "url-open-application.h"
 
-UrlOpenApplication::UrlOpenApplication()
-{
 
+UrlOpenApplication::UrlOpenApplication(int &argc, char **argv)
+    : QApplication(argc, argv)
+{
 }
